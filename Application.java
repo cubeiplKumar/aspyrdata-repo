@@ -18,6 +18,7 @@ class Main {
     int result = obj.addNumbers(num1, num2);
     System.out.println("Sum is: " + result);
   }
+
   #feature202  by ethan in oct2023
   class MethodOverloading {
 
@@ -37,4 +38,25 @@ class Main {
     }
 }
 #end of feature202
+
+  #feature201 changes by vivek in oct2023
+  public class CallingMethodsInSameClass
+{
+	public static void main(String[] args) {
+		printOne();
+		printOne();
+		printTwo();
+	}
+
+	public static void printOne() {
+		System.out.println("Hello World");
+	}
+
+	public static void printTwo() {
+		printOne();
+		printOne();
+	}
+}
+#end of feature201 changes
+
 }
