@@ -18,4 +18,23 @@ class Main {
     int result = obj.addNumbers(num1, num2);
     System.out.println("Sum is: " + result);
   }
+  #feature201 changes by vivek in oct2023
+  public class CallingMethodsInSameClass
+{
+	public static void main(String[] args) {
+		printOne();
+		printOne();
+		printTwo();
+	}
+
+	public static void printOne() {
+		System.out.println("Hello World");
+	}
+
+	public static void printTwo() {
+		printOne();
+		printOne();
+	}
+}
+#end of feature201 changes
 }
